@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+  }
+  .main-form {
+   width: fit-content;
+  }
+  .input {
+    padding: 20px;
+    width: 80%;
+    margin: 5px auto;
+    border-radius: 8px;
+    border: 1px solid gray;
+    font-size: 16px;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .table {
+    overflow: hidden;
+    border-radius: 10px !important;
+  } 
+
+  .weather-data {
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+  .city {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  
+  .temp {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    width: fit-content;
+    align-self: center;
+  }
+  .weather {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .header-title {
+    text-align: center;
+    background-color: #72419a !important;
+  }
+  .header-title i {
+    margin-right: 10px;
+  }
+  .prev-title {
+    text-align: center;
+    background-color: #008625 !important;
+  }
+
+  .add-table {
+    width: 150px;
+    margin-top: 5px;
+  }
